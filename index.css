@@ -93,22 +93,22 @@ h1{
 
 .two-one p{
     color: hsl(300, 43%, 22%);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 .two-two p{
     color: hsl(300, 43%, 22%);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 .two-three p{
     color: hsl(300, 43%, 22%);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 .star{
-    padding-right: 10px;
-    height: 22px;
+    padding-right: 7px;
+    height: 18px;
 }
 .three{
     grid-area: three;
@@ -169,7 +169,7 @@ h1{
     font-weight: 500;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1502px){
     body{
         background-color: hsl(0, 0%, 100%);
         background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
@@ -272,6 +272,7 @@ h1{
     }
     .star{
         padding-right: 10px;
+        height: 15px;
     }
     .three{
         grid-area: three;
@@ -346,7 +347,7 @@ h1{
         padding-right: 5%;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1101px) {
     h1{
         padding-bottom: 15px;
     }
@@ -402,7 +403,7 @@ h1{
         font-weight: 500;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 963px) {
     .container{
         display: block;
         position: relative;
@@ -411,6 +412,7 @@ h1{
     }
     .two-one, .two-two, .two-three{
         padding-right: 10%;
+        margin-bottom: 60px;
     }
     .two-one p, .two-two p, .two-three p{
         font-size: 12px;
@@ -544,7 +546,7 @@ h1{
     .two-two , .two-three, .two-one{
         height: 40px ;
         padding:auto;
-        margin-bottom: 20px ;
+        margin-bottom: 35px ;
         width: 100%;
         margin-left: 0;
         display: flex;
@@ -622,4 +624,3 @@ h1{
     }
 
 }
-    
